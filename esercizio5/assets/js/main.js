@@ -14,4 +14,6 @@ for (var i = 0; i < 6; i++){
     }
 }
 
+console.log(listaNumeri);
+
 // se il numero è dispari inserirlo nell'array
