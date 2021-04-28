@@ -5,12 +5,19 @@ var numero = prompt("Inserisci un numero");
 
 console.log(numero);
 
-for (var i = 0; i < numero; i++) {
+var counter = 1;
 
-    
+for (var i = 0; i < numero; i++) {
 
     var cubo = Math.pow(numero, 3);
 
-    console.log(cubo);
+    if (counter <= numero){
+
+        var counterCube = Math.pow(counter, 3);
+        counter++;
+        console.log(counterCube);
+    }
+
 
 }
+
