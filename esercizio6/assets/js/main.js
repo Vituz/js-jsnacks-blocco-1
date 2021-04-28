@@ -9,8 +9,6 @@ var counter = 1;
 
 for (var i = 0; i < numero; i++) {
 
-    var cubo = Math.pow(numero, 3);
-
     if (counter <= numero){
 
         var counterCube = Math.pow(counter, 3);
