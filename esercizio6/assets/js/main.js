@@ -3,7 +3,7 @@
 
 var numero = prompt("Inserisci un numero");
 
-console.log(numero);
+console.log("Hai inserito il numero: " + numero);
 
 var counter = 1;
 
