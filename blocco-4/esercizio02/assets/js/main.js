@@ -15,7 +15,7 @@ var area;
 
 ipotenusa = Math.sqrt(Math.pow(tRettangolo.base, 2) + Math.pow(tRettangolo.altezza, 2));
 
-perimetro = ipotenusa + tRettangolo.base + tRettangolo.altezza;
+perimetro = (ipotenusa + tRettangolo.base + tRettangolo.altezza).toFixed(2);
 
 console.log(perimetro);
 
