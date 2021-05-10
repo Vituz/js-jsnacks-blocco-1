@@ -11,3 +11,13 @@ var Palla = {
 }
 
 console.log(Palla);
+
+
+/*
+1B:
+Attraverso un prompt dare la possibilità all’utente di modificare il peso della palla.
+*/
+
+var modPeso = prompt("Modifica il peso della palla");
+Palla.peso = modPeso;
+console.log(Palla);
